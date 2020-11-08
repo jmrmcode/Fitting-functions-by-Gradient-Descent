@@ -10,5 +10,5 @@ The following periodic univariate function is used as an example to illustrate c
 
 and the sum of squared errors as the cost function:
 
-![Local functions](https://github.com/jmrmcode/Fitting-functions-by-Gradient-Descent/blob/main/math-202011.png)
+![Local functions](https://github.com/jmrmcode/Fitting-functions-by-Gradient-Descent/blob/main/math-20201100.png)
 
