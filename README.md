@@ -12,4 +12,4 @@ and the sum of squared errors as the cost function:
 
 ![Local functions](https://github.com/jmrmcode/Fitting-functions-by-Gradient-Descent/blob/main/math-20201111.png)
 
-The algorithm starts with an initial value of the parameter to estimate ($\theta) and gradually get closer to the value of theta that corresponds to the best fit of f to the data.
+The algorithm starts with an initial value of the parameter to estimate ($\theta$) and gradually get closer to the value of theta that corresponds to the best fit of f to the data.
