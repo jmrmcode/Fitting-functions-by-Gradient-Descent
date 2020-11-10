@@ -24,4 +24,4 @@ The workflow is as follows:
 2. If the absolute difference &theta;<sub>j-1</sub> - &theta;<sub>j</sub> is greater than a value &epsilon;, then &theta;<sub>j-1</sub> = &theta;<sub>j</sub> and return to step 1. Otherwise, the algorithm jumps to step 3.
 3. &theta;<sub>j</sub> is an approximate value of &theta; for which the difference between *y<sub>i</sub>* (the observed value)and *f(t)* (the fitted value) is minimum. The value of &epsilon; determines when to stop the algorithm.
 
-Since one &theta; is estimated for each obervation, 
+Note that one &theta; is estimated for each observation *y*<sub>i</sub>, therefore, the vector of &theta;s is averaged and plot the fitted versus observed values.
