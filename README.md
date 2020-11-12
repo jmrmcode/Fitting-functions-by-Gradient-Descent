@@ -4,7 +4,7 @@ Fitting a function to data using gradient descent
 Fit an arbitrary univariate function to data by gradient descent using [Julia programming language](https://julialang.org/).
 
 The gradient descent method makes use of the first derivative of a cost function to iteratively find a local minimum. This local minimum corresponds to the parameter value that yields the best fit of the target function to the data.
-The periodic function shown below is used as an example to illustrate the code and the data be fitted are downloaded from GitHub.
+The periodic function shown below is used as an example to illustrate the code and the data to be fitted are downloaded from GitHub.
 
 ![Local functions](https://github.com/jmrmcode/Fitting-functions-by-Gradient-Descent/blob/main/math-20201114.png)
 
