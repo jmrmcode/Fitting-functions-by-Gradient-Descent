@@ -10,7 +10,7 @@ data = CSV.read(download("https://github.com/jmrmcode/datasets/raw/master/toyDat
 
 # function to compute the gradient descent
 function grad_descent(θ_init, f)
-    ϵ = 1e-8 # distance between the observed and fitted values
+    ϵ = 1e-8 # distance between the observed and fitted value
     λ = 0.1 # step size
     θ_jminus1 = θ_init
     θ_j = θ_jminus1 - λ * derivative(f, θ_jminus1)
