@@ -27,7 +27,7 @@ function grad_descent(θ_init, f)
     # create an empty vector
     v = Array{Float64, 1}(undef, 37)
     # create the time variable scaled by π
-    pif = (collect(1:37)*2*pi) / length(collect(1:37))
+    pif = (collect(1:length(data))*2*pi) / length(collect(1:length(data)))
     # set θ initial value
     θ_init = 1.5
     # loop grad_descent() over the data
@@ -52,5 +52,6 @@ function grad_descent(θ_init, f)
             A[i, j] = Γ[i]
         end
     end
+
     plot(pif, A[:, 2], label = "Fitted")
     plot!(pif, data[1:length(data)], label = "Observed")
