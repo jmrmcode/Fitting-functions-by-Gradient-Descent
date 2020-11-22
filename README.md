@@ -14,7 +14,7 @@ The sum of squared errors is used as the cost function (which has only one local
 
 The algorithm starts with an initial value of the parameter to estimate &theta; and gradually gets closer to the value of &theta; that corresponds to the best fit of *f*. The equation that gets the parameter closer is:
 
-![Local functions](https://github.com/jmrmcode/Fitting-functions-by-Gradient-Descent/blob/main/math-20201112.png)
+![Local functions](https://github.com/jmrmcode/Fitting-functions-by-Gradient-Descent/blob/main/math-20201122.png)
 
 where &lambda; is the step size and determines the distance of the next step. It should be as small as possible to avoid going over the minimum.
 
@@ -25,3 +25,7 @@ The workflow is as follows:
 3. &theta;<sub>j</sub> is an approximate value of &theta; for which the difference between *y<sub>i</sub>* (the observed value)and *f(t)* (the fitted value) is minimum. The value of &epsilon; determines when to stop the algorithm.
 
 Note that one &theta; is estimated for each observation *y*<sub>i</sub>, therefore, the median is calculated from the vector of &theta;s. Finally, the fitted and observed values are plotted together.
+
+## Acknowledgments
+
+Thanks to Andrii Zaiats for the mathematical notation review.
