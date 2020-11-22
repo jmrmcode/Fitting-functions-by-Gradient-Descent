@@ -28,4 +28,4 @@ Note that one &theta; is estimated for each observation *y*<sub>i</sub>, therefo
 
 ## Acknowledgments
 
-Thanks to Andrii Zaiats for the mathematical notation review.
+Thanks to Andrii Zaiats (andriizayac) for the mathematical notation review.
