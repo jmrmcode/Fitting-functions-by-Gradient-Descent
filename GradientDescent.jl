@@ -4,9 +4,10 @@ using CSV
 using Plots
 using Calculus
 using Statistics
+using DataFrames
 
 # import data set from github
-data = CSV.read(download("https://github.com/jmrmcode/datasets/raw/master/toyData_GradientDescent.csv"))[:, 1]
+data = CSV.read(download("https://github.com/jmrmcode/datasets/raw/master/toyData_GradientDescent.csv"), DataFrame)[:, 1]
 
 # function to compute the gradient descent
 function grad_descent(θ_init, f)
