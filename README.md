@@ -16,7 +16,7 @@ The algorithm starts with an initial value of the parameter to estimate &theta; 
 
 ![Local functions](https://github.com/jmrmcode/Fitting-functions-by-Gradient-Descent/blob/main/math-20210131.png?raw=true)
 
-where &lambda; is the step size and determines the distance of the next step. It should be as small as possible to avoid going over the minimum.
+where &lambda; is the learning rate and determines the distance of the next step (step size). It should be as small as possible to avoid going over the minimum.
 
 The workflow is as follows:
 
