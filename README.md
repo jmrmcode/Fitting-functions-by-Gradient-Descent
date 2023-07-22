@@ -1,5 +1,5 @@
 # Fitting-functions-by-Gradient-Descent
-Fitting a function to data using gradient descent
+Fitting a function to data using gradient descent. [![DOI](https://zenodo.org/badge/311162632.svg)](https://zenodo.org/badge/latestdoi/311162632)
 ## What does it do
 Fit an arbitrary univariate function to data by gradient descent using [Julia programming language](https://julialang.org/).
 
